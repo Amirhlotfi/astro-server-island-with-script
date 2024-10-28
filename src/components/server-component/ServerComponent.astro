@@ -1,8 +1,8 @@
-<button data-confetti-button>Celebrate! (Using astro component)</button>
+<button data-astro-component-confetti-button>Celebrate! (Using astro component)</button>
 
 <script>
     import confetti from 'canvas-confetti';
-    const buttons = document.querySelectorAll('[data-confetti-button]');
+    const buttons = document.querySelectorAll('[data-astro-component-confetti-button]');
     buttons.forEach((button) => {
         button.addEventListener('click', () => confetti());
     });

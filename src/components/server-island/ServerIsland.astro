@@ -2,13 +2,13 @@
 await new Promise(resolve => setTimeout(resolve, 2000));
 ---
 
-<button data-confetti-button>Celebrate!(Using server island)</button>
+<button data-server-island-confetti-button>Celebrate!(Using server island)</button>
 
 
 
 <script>
     import confetti from 'canvas-confetti';
-    const buttons = document.querySelectorAll('[data-confetti-button]');
+    const buttons = document.querySelectorAll('[data-server-island-confetti-button]');
     buttons.forEach((button) => {
         button.addEventListener('click', () => confetti());
     });
