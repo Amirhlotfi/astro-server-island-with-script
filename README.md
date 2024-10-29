@@ -1,6 +1,6 @@
 # astro-server-island-with-script
 Demonstrating unexpected behavior when using scripts in an Astro server island, as the script in the island is executed before the server island is fetched.\
-Additionally, the entire .astro file is being shipped to the client when there is a script tag in the server island. This does not happen if the server island does not have a script tag.
+Additionally, the entire .astro file is being shipped to the client when there is a script tag in the server island. This is not the case if the server island does not contain a script tag.
 
 ## Steps to reproduce
 1. Run npm install.
