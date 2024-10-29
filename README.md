@@ -7,4 +7,4 @@ Additionally, the entire .astro file is being shipped to the client when there i
 2. Run npm run dev.
 3. Navigate to http://localhost:4321.
 4. Click "Celebrate! (Using Astro component)" and "Celebrate! (Using server island)" to observe the difference.
-5. Open the "Sources" tab in the browser's developer tools and notice that the entire .astro file is available to the client. 
+5. Open the "Sources" tab in the browser's developer tools and notice that the entire `ServerIsland.astro` file is available to the client . 
